@@ -26,6 +26,7 @@ function createImgList(images) {
       </li>`;
     })
     .join('');
+  listImg.innerHTML = imgMarkup;
 }
 
 const instance = new SimpleLightbox('.gallery a', {
