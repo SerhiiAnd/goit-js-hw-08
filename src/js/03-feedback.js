@@ -28,7 +28,7 @@ feedbackForm.addEventListener(
   'input',
   throttle(() => {
     saveFormData();
-  }, 500)
+  }, 800)
 );
 window.addEventListener('load', () => {
   loadFormData();
