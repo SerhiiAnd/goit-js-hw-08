@@ -15,6 +15,6 @@ player.ready().then(() => {
       const currentTime = data.seconds;
 
       localStorage.setItem('videoplayer-current-time', currentTime.toString());
-    }, 800)
+    }, 1000)
   );
 });
